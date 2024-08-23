@@ -166,7 +166,6 @@ onBeforeUnmount(() => {
 
 onMounted(() => {
   setVisibleNumber()
-  document.querySelector(".el-menu-item").click()
 })
 </script>
 
