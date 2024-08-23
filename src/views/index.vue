@@ -66,7 +66,7 @@
           </div>
           <br/>
           <h4 class="text-primary">
-            wHitE | 博客 Blog 博客相关链接地址
+            Blog | wHitE 博客 相关链接地址
           </h4>
         </blockquote>
 
@@ -141,21 +141,25 @@
             </div>
           </template>
           <div class="body">
-            <p>
+            <p style="display: flex;align-items: center">
               工信部备案信息：
-              <el-link href="https://beian.miit.gov.cn" target="_blank">皖ICP备2024053724号-1</el-link>
-            </p>
-            <p>
-              公安局备案信息：
-              <el-link href="https://beian.miit.gov.cn" target="_blank">
-                <img style="height: 12px;margin-right: 5px" src="@/assets/images/record.png" alt=""/>
-                <span>皖公网安备34130202000761</span>
+              <el-link href="https://beian.miit.gov.cn" target="_blank" :underline="false">
+                <el-button size="small" style="font-weight: normal" link>皖ICP备2024053724号-1</el-button>
               </el-link>
             </p>
-            <p>
-              <i class="el-icon-s-promotion"></i> 版权信息：
-              <el-link href="http://blog.whitecc.top/personal?author=1" target="_blank">&copy;2024 By wHitE_
-                个人开发者
+            <p style="display: flex;align-items: center">
+              公安局备案信息：
+              <el-link href="https://beian.miit.gov.cn" target="_blank" :underline="false">
+                <el-button size="small" style="font-weight: normal" link>
+                  <img style="height: 12px;margin-right: 5px" src="@/assets/images/record.png" alt=""/>
+                  <span>皖公网安备34130202000761</span>
+                </el-button>
+              </el-link>
+            </p>
+            <p style="display: flex;align-items: center">
+              版权信息：
+              <el-link href="http://blog.whitecc.top/personal?author=1" target="_blank" :underline="false">
+                <el-button size="small" style="font-weight: normal" link>&copy;2024 By wHitE_ 个人开发者</el-button>
               </el-link>
             </p>
           </div>
